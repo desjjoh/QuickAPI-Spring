@@ -1,0 +1,5 @@
+server:
+  name: QuickAPI
+  port: 8080
+  env: dev
+  url: http://localhost:${app.port}
