@@ -11,5 +11,5 @@ public class HelloController {
         return ResponseEntity.ok(new HelloResponse("QuickAPI-Spring", "Hello, world!"));
     }
 
-    record HelloResponse(String service, String message) {}
+    record HelloResponse(String service, String message) { }
 }

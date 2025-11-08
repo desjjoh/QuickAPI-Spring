@@ -1,5 +1,11 @@
-server:
+app:
   name: QuickAPI
   port: 8080
-  env: dev
+  environment: dev
   url: http://localhost:${app.port}
+  debug: true
+spring:
+  main:
+    banner-mode: off
+server:
+  port: 8080
